@@ -25,4 +25,6 @@ function merge(collection1: number[], collection2: number[]) {
     
     return result
 }
-console.log(merge([9,6,5,7,8],[4,2,1,3]));
+console.log(merge([],[]));
+
+export default merge
